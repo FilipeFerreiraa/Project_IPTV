@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap");
+
+:root {
+    --font-roboto: 'Roboto Mono', monospace;
+}
+
+html {
+    -webkit-tap-highlight-color: #00000000;
+}
+
+body {
+    background-color: rgb(52, 52, 52);
+}
+
+
+.header_container {
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    font-family: var(--font-roboto);
+    height: 8vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.header_logo {
+    height: 100%;
+    width: 50%;
+}
+
+.container {
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+    font-family: var(--font-roboto);
+    font-weight: bolder;
+    height: 5%;
+    justify-content: center;
+    width: 100%;
+}
+
+.channel_list {
+    display: flex;
+    flex-wrap: wrap;
+    height: 350vh;
+    justify-content: center;
+    width: 90%;
+}
+
+.channel_icon {
+    width: 100%;
+}
+
+.channel_link {
+    width: 70%;
+}
+
+.footer_container {
+    background-color: #000000;
+    width: 100%;
+}
